@@ -190,59 +190,6 @@ Tests cover:
 * Edge cases
 
 ---
-## Documentation (Sphinx)
-
-This project includes automatically generated documentation using **Sphinx**.
-
-The documentation is built from the source code and provides a structured overview of modules, functions, and project components.
-
-### View the documentation
-
-If the documentation has already been built, open the main page:
-```bash
-docs/build/html/index.html
-```
-You can open it in your browser:
-- **Windows**
-```bash
-start docs/build/html/index.html
-```
-- **Linux**
-```bash
-xdg-open docs/build/html/index.html
-```
-- **macOS**
-```bash
-open docs/build/html/index.html
-```
-### Rebuild the documentation
-
-If you want to regenerate the documentation from source:
-
-```bash
-cd docs
-make html
-```
-After building, open again:
-```bash
-docs/build/html/index.html
-```
-
-### Notes
-
-- The documentation is generated automatically from the codebase and `.rst` files located in:
-```
-docs/source/
-```
-- The compiled HTML output is stored in:
-```
-docs/build/html/
-```
-- The entry point is always:
-```
-index.html
-```
----
 
 ## Technologies:
 
@@ -250,10 +197,7 @@ index.html
 * Pandas
 * NumPy
 * Plotnine
-* Eurostat API
-* INE API (ineapy)
 * Pytest
-* Sphinx (documentation)
 
 ---
 
@@ -267,20 +211,10 @@ This is an academic project, but contributions should follow basic software prac
 
 ---
 
-## Versioning:
-
-Git is used with multiple branches for:
-
-* Feature development
-* Testing
-* Integration
-
----
-
 ## License:
 
 This project is intended for academic use within:
-- Computer Programming II
-- Probability and Statistics
+- Machine Learning
+- Communication Skills
 
 No formal license has been defined.
