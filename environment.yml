@@ -1,4 +1,4 @@
-name: optimization_ml
+name: machine
 channels:
   - conda-forge
   - defaults
