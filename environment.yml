@@ -1,17 +1,14 @@
-name: machine
+name: ml-project
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - python=3.14
   - numpy
   - pandas
   - matplotlib
   - scikit-learn
-  - pyomo
+  - seaborn
   - glpk
   - ipykernel
   - jupyter
-  - pip
-  - pip:
-    - pyomo
